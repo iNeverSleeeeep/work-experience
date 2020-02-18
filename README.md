@@ -21,10 +21,10 @@
 #### 基于Unity和地理位置的大富翁游戏
 - 无缝地图 地图数据预处理，流式地图生成。使用北京地图数据，制作的大富翁游戏，通过滑动屏幕可以在一个大富翁地图中漫游。所有的道路和房屋节点动态生成与销毁.
 #### 业余项目
-- 基于GO的分布式服务器，出于对之前项目的问题的思考，以及我的工作经验的总结，制作的一个基于GO的分布式服务器。[项目连接](https://github.com/iNeverSleeeeep/INServer)
-- 配置档工具 基于对项目现有问题的思考，制作了一个功能、性能强大并且有较大扩展潜力的配置档导出工具。[项目链接](https://github.com/iNeverSleeeeep/Game-Config-Tool)
+- 基于GO的分布式服务器，出于对之前项目的问题的思考，以及我的工作经验的总结，制作的一个基于GO的分布式服务器。[项目地址](https://github.com/iNeverSleeeeep/INServer)
+- 配置档工具 基于对项目现有问题的思考，制作了一个功能、性能强大并且有较大扩展潜力的配置档导出工具。[项目地址](https://github.com/iNeverSleeeeep/Game-Config-Tool)
 - Unity对象池 代码简单，扩展性强的Unity对象池。[项目地址](https://github.com/iNeverSleeeeep/GameObjectPool)
-- 热更新框架 支持多线程下载、断点续传、稳定可靠的热更新框架。代码简单方便用来学习。[项目链接](https://github.com/iNeverSleeeeep/UpdateResourceTool)
+- 热更新框架 支持多线程下载、断点续传、稳定可靠的热更新框架。代码简单方便用来学习。[项目地址](https://github.com/iNeverSleeeeep/UpdateResourceTool)
 
 ## 详细说明
 #### 行为树 
