@@ -17,13 +17,14 @@
 - [技能系统2](#技能系统2) 使用json格式配置，技能，Buff，事件三者互相触发、作用实现复杂的实时技能系统。
 - UI框架 UI层级管理，生命周期管理。
 - 行为树 怪物/机器人行为。
+- 反外挂 属性数值非内存中数值。
 #### 基于Unity和地理位置的大富翁游戏
-- [无缝地图] 地图数据预处理，流式地图生成。
+- 无缝地图 地图数据预处理，流式地图生成。使用北京地图数据，制作的大富翁游戏，通过滑动屏幕可以在一个大富翁地图中漫游。所有的道路和房屋节点动态生成与销毁.
 #### 业余项目
-- [基于GO的分布式服务器] 出于对之前项目的问题的思考，制作的一个基于GO的分布式服务器。[项目连接](https://github.com/iNeverSleeeeep/INServer)
-- [配置档工具] 基于对项目现有问题的思考，制作了一个功能、性能强大并且有较大扩展潜力的配置档导出工具。[项目链接](https://github.com/iNeverSleeeeep/Game-Config-Tool)
-- [Unity对象池] 代码简单，扩展性强的Unity对象池。[项目地址](https://github.com/iNeverSleeeeep/GameObjectPool)
-- [热更新框架] 支持多线程下载、断点续传、稳定可靠的热更新框架。代码简单方便用来学习。[项目链接](https://github.com/iNeverSleeeeep/UpdateResourceTool)
+- 基于GO的分布式服务器，出于对之前项目的问题的思考，以及我的工作经验的总结，制作的一个基于GO的分布式服务器。[项目连接](https://github.com/iNeverSleeeeep/INServer)
+- 配置档工具 基于对项目现有问题的思考，制作了一个功能、性能强大并且有较大扩展潜力的配置档导出工具。[项目链接](https://github.com/iNeverSleeeeep/Game-Config-Tool)
+- Unity对象池 代码简单，扩展性强的Unity对象池。[项目地址](https://github.com/iNeverSleeeeep/GameObjectPool)
+- 热更新框架 支持多线程下载、断点续传、稳定可靠的热更新框架。代码简单方便用来学习。[项目链接](https://github.com/iNeverSleeeeep/UpdateResourceTool)
 
 ## 详细说明
 #### 行为树 
@@ -90,3 +91,4 @@
 - 技能有前摇阶段和后摇阶段，在任意时刻可以被打断（根据配置），在后摇阶段可以随意取消。
 - 技能，状态，和效果三者之间可以互相产生。效果是技能/效果最终产生的作用，可以是简单的伤害，属性增加，也可以是触发另一个技能或效果。
 - 每帧有统一的结算阶段，减少了逻辑阶段的复杂性（例如某个效果导致了角色的死亡）。
+[回到顶部](#readme)
