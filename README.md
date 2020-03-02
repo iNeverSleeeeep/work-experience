@@ -25,6 +25,7 @@
 - 配置档工具 基于对项目现有问题的思考，制作了一个功能、性能强大并且有较大扩展潜力的配置档导出工具。[项目地址](https://github.com/iNeverSleeeeep/Game-Config-Tool)
 - Unity对象池 代码简单，扩展性强的Unity对象池。[项目地址](https://github.com/iNeverSleeeeep/GameObjectPool)
 - 热更新框架 支持多线程下载、断点续传、稳定可靠的热更新框架。代码简单方便用来学习。[项目地址](https://github.com/iNeverSleeeeep/UpdateResourceTool)
+- lua代码热加载框架 不同于常见的package.loaded[path] = nil 方式，一个更易用的lua代码热加载实现。[项目地址](https://github.com/iNeverSleeeeep/tolua)
 
 ## 详细说明
 #### 行为树 
